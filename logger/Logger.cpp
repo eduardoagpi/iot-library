@@ -22,8 +22,8 @@ private:
     WiFiClient telnetClient;
 
 public:
-
-    void init() {
+    void init()
+    {
         server.begin();
         server.setNoDelay(true);
     }

@@ -16,7 +16,7 @@ void setupArduinoOTA()
       })
       .onEnd([]() {
         Serial.println("\nEnd");
-      }) 
+      })
       .onProgress([](unsigned int progress, unsigned int total) {
         Serial.printf("Progress: %u%%\r", (progress / (total / 100)));
       })

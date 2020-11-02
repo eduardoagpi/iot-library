@@ -41,10 +41,12 @@ public:
     {
         interval = _newInterval;
     }
-    void enable() {
+    void enable()
+    {
         enabled = true;
     }
-    void disable() {
+    void disable()
+    {
         enabled = false;
     }
 };
